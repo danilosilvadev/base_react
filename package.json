@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "karma start",
     "start": "npm run build",
     "build": "webpack-dev-server --env=dev --progress --profile --colors",
     "prod": "npm run clean && webpack --env=prod --progress --profile --colors",
